@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2EDF14820E48F850060928F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EDF14720E48F850060928F /* AppDelegate.m */; };
+		D2EDF14B20E48F850060928F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EDF14A20E48F850060928F /* ViewController.m */; };
+		D2EDF14E20E48F850060928F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2EDF14C20E48F850060928F /* Main.storyboard */; };
+		D2EDF15020E48F850060928F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2EDF14F20E48F850060928F /* Assets.xcassets */; };
+		D2EDF15320E48F850060928F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2EDF15120E48F850060928F /* LaunchScreen.storyboard */; };
+		D2EDF15620E48F850060928F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EDF15520E48F850060928F /* main.m */; };
+		D2EDF16020E48F850060928F /* SPExcelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EDF15F20E48F850060928F /* SPExcelTests.m */; };
+		D2EDF16B20E48F850060928F /* SPExcelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EDF16A20E48F850060928F /* SPExcelUITests.m */; };
+		D2EDF17B20E490660060928F /* SPBatteryStatusCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EDF17920E490660060928F /* SPBatteryStatusCollectionView.m */; };
+		D2EDF17E20E4908C0060928F /* SPBattertStatusCollectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EDF17D20E4908C0060928F /* SPBattertStatusCollectCell.m */; };
+		D2EDF18120E490AD0060928F /* SPBatteryStatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EDF18020E490AD0060928F /* SPBatteryStatusModel.m */; };
+		D2EDF1BF20E490FD0060928F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2EDF1A520E490FD0060928F /* Info.plist */; };
+		D2EDF1C020E490FD0060928F /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EDF1A720E490FD0060928F /* MASCompositeConstraint.m */; };
+		D2EDF1C120E490FD0060928F /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EDF1AA20E490FD0060928F /* MASConstraint.m */; };
+		D2EDF1C220E490FD0060928F /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EDF1AC20E490FD0060928F /* MASConstraintMaker.m */; };
+		D2EDF1C320E490FD0060928F /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EDF1AE20E490FD0060928F /* MASLayoutConstraint.m */; };
+		D2EDF1C420E490FD0060928F /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EDF1B220E490FD0060928F /* MASViewAttribute.m */; };
+		D2EDF1C520E490FD0060928F /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EDF1B420E490FD0060928F /* MASViewConstraint.m */; };
+		D2EDF1C620E490FD0060928F /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EDF1B620E490FD0060928F /* NSArray+MASAdditions.m */; };
+		D2EDF1C720E490FD0060928F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EDF1B920E490FD0060928F /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		D2EDF1C820E490FD0060928F /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EDF1BB20E490FD0060928F /* View+MASAdditions.m */; };
+		D2EDF1C920E490FD0060928F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EDF1BE20E490FD0060928F /* ViewController+MASAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2EDF15C20E48F850060928F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2EDF13B20E48F850060928F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2EDF14220E48F850060928F;
+			remoteInfo = SPExcel;
+		};
+		D2EDF16720E48F850060928F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2EDF13B20E48F850060928F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2EDF14220E48F850060928F;
+			remoteInfo = SPExcel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2EDF14320E48F850060928F /* SPExcel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPExcel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2EDF14620E48F850060928F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2EDF14720E48F850060928F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2EDF14920E48F850060928F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2EDF14A20E48F850060928F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2EDF14D20E48F850060928F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2EDF14F20E48F850060928F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2EDF15220E48F850060928F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2EDF15420E48F850060928F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2EDF15520E48F850060928F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2EDF15B20E48F850060928F /* SPExcelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPExcelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2EDF15F20E48F850060928F /* SPExcelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPExcelTests.m; sourceTree = "<group>"; };
+		D2EDF16120E48F850060928F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2EDF16620E48F850060928F /* SPExcelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPExcelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2EDF16A20E48F850060928F /* SPExcelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPExcelUITests.m; sourceTree = "<group>"; };
+		D2EDF16C20E48F850060928F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2EDF17920E490660060928F /* SPBatteryStatusCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBatteryStatusCollectionView.m; sourceTree = "<group>"; };
+		D2EDF17A20E490660060928F /* SPBatteryStatusCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBatteryStatusCollectionView.h; sourceTree = "<group>"; };
+		D2EDF17C20E4908C0060928F /* SPBattertStatusCollectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBattertStatusCollectCell.h; sourceTree = "<group>"; };
+		D2EDF17D20E4908C0060928F /* SPBattertStatusCollectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBattertStatusCollectCell.m; sourceTree = "<group>"; };
+		D2EDF17F20E490AD0060928F /* SPBatteryStatusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBatteryStatusModel.h; sourceTree = "<group>"; };
+		D2EDF18020E490AD0060928F /* SPBatteryStatusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBatteryStatusModel.m; sourceTree = "<group>"; };
+		D2EDF1A520E490FD0060928F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2EDF1A620E490FD0060928F /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		D2EDF1A720E490FD0060928F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		D2EDF1A820E490FD0060928F /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		D2EDF1A920E490FD0060928F /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		D2EDF1AA20E490FD0060928F /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		D2EDF1AB20E490FD0060928F /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		D2EDF1AC20E490FD0060928F /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		D2EDF1AD20E490FD0060928F /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		D2EDF1AE20E490FD0060928F /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		D2EDF1AF20E490FD0060928F /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		D2EDF1B020E490FD0060928F /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		D2EDF1B120E490FD0060928F /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		D2EDF1B220E490FD0060928F /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		D2EDF1B320E490FD0060928F /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		D2EDF1B420E490FD0060928F /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		D2EDF1B520E490FD0060928F /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		D2EDF1B620E490FD0060928F /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		D2EDF1B720E490FD0060928F /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D2EDF1B820E490FD0060928F /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		D2EDF1B920E490FD0060928F /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		D2EDF1BA20E490FD0060928F /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		D2EDF1BB20E490FD0060928F /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		D2EDF1BC20E490FD0060928F /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D2EDF1BD20E490FD0060928F /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		D2EDF1BE20E490FD0060928F /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2EDF14020E48F850060928F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EDF15820E48F850060928F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EDF16320E48F850060928F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2EDF13A20E48F850060928F = {
+			isa = PBXGroup;
+			children = (
+				D2EDF14520E48F850060928F /* SPExcel */,
+				D2EDF15E20E48F850060928F /* SPExcelTests */,
+				D2EDF16920E48F850060928F /* SPExcelUITests */,
+				D2EDF14420E48F850060928F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2EDF14420E48F850060928F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2EDF14320E48F850060928F /* SPExcel.app */,
+				D2EDF15B20E48F850060928F /* SPExcelTests.xctest */,
+				D2EDF16620E48F850060928F /* SPExcelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2EDF14520E48F850060928F /* SPExcel */ = {
+			isa = PBXGroup;
+			children = (
+				D2EDF1A420E490FD0060928F /* Masonry */,
+				D2EDF17820E4904E0060928F /* Battery */,
+				D2EDF14620E48F850060928F /* AppDelegate.h */,
+				D2EDF14720E48F850060928F /* AppDelegate.m */,
+				D2EDF14920E48F850060928F /* ViewController.h */,
+				D2EDF14A20E48F850060928F /* ViewController.m */,
+				D2EDF14C20E48F850060928F /* Main.storyboard */,
+				D2EDF14F20E48F850060928F /* Assets.xcassets */,
+				D2EDF15120E48F850060928F /* LaunchScreen.storyboard */,
+				D2EDF15420E48F850060928F /* Info.plist */,
+				D2EDF15520E48F850060928F /* main.m */,
+			);
+			path = SPExcel;
+			sourceTree = "<group>";
+		};
+		D2EDF15E20E48F850060928F /* SPExcelTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2EDF15F20E48F850060928F /* SPExcelTests.m */,
+				D2EDF16120E48F850060928F /* Info.plist */,
+			);
+			path = SPExcelTests;
+			sourceTree = "<group>";
+		};
+		D2EDF16920E48F850060928F /* SPExcelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2EDF16A20E48F850060928F /* SPExcelUITests.m */,
+				D2EDF16C20E48F850060928F /* Info.plist */,
+			);
+			path = SPExcelUITests;
+			sourceTree = "<group>";
+		};
+		D2EDF17820E4904E0060928F /* Battery */ = {
+			isa = PBXGroup;
+			children = (
+				D2EDF17A20E490660060928F /* SPBatteryStatusCollectionView.h */,
+				D2EDF17920E490660060928F /* SPBatteryStatusCollectionView.m */,
+				D2EDF17C20E4908C0060928F /* SPBattertStatusCollectCell.h */,
+				D2EDF17D20E4908C0060928F /* SPBattertStatusCollectCell.m */,
+				D2EDF17F20E490AD0060928F /* SPBatteryStatusModel.h */,
+				D2EDF18020E490AD0060928F /* SPBatteryStatusModel.m */,
+			);
+			path = Battery;
+			sourceTree = "<group>";
+		};
+		D2EDF1A420E490FD0060928F /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				D2EDF1A520E490FD0060928F /* Info.plist */,
+				D2EDF1A620E490FD0060928F /* MASCompositeConstraint.h */,
+				D2EDF1A720E490FD0060928F /* MASCompositeConstraint.m */,
+				D2EDF1A820E490FD0060928F /* MASConstraint+Private.h */,
+				D2EDF1A920E490FD0060928F /* MASConstraint.h */,
+				D2EDF1AA20E490FD0060928F /* MASConstraint.m */,
+				D2EDF1AB20E490FD0060928F /* MASConstraintMaker.h */,
+				D2EDF1AC20E490FD0060928F /* MASConstraintMaker.m */,
+				D2EDF1AD20E490FD0060928F /* MASLayoutConstraint.h */,
+				D2EDF1AE20E490FD0060928F /* MASLayoutConstraint.m */,
+				D2EDF1AF20E490FD0060928F /* Masonry.h */,
+				D2EDF1B020E490FD0060928F /* MASUtilities.h */,
+				D2EDF1B120E490FD0060928F /* MASViewAttribute.h */,
+				D2EDF1B220E490FD0060928F /* MASViewAttribute.m */,
+				D2EDF1B320E490FD0060928F /* MASViewConstraint.h */,
+				D2EDF1B420E490FD0060928F /* MASViewConstraint.m */,
+				D2EDF1B520E490FD0060928F /* NSArray+MASAdditions.h */,
+				D2EDF1B620E490FD0060928F /* NSArray+MASAdditions.m */,
+				D2EDF1B720E490FD0060928F /* NSArray+MASShorthandAdditions.h */,
+				D2EDF1B820E490FD0060928F /* NSLayoutConstraint+MASDebugAdditions.h */,
+				D2EDF1B920E490FD0060928F /* NSLayoutConstraint+MASDebugAdditions.m */,
+				D2EDF1BA20E490FD0060928F /* View+MASAdditions.h */,
+				D2EDF1BB20E490FD0060928F /* View+MASAdditions.m */,
+				D2EDF1BC20E490FD0060928F /* View+MASShorthandAdditions.h */,
+				D2EDF1BD20E490FD0060928F /* ViewController+MASAdditions.h */,
+				D2EDF1BE20E490FD0060928F /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2EDF14220E48F850060928F /* SPExcel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2EDF16F20E48F850060928F /* Build configuration list for PBXNativeTarget "SPExcel" */;
+			buildPhases = (
+				D2EDF13F20E48F850060928F /* Sources */,
+				D2EDF14020E48F850060928F /* Frameworks */,
+				D2EDF14120E48F850060928F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPExcel;
+			productName = SPExcel;
+			productReference = D2EDF14320E48F850060928F /* SPExcel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2EDF15A20E48F850060928F /* SPExcelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2EDF17220E48F850060928F /* Build configuration list for PBXNativeTarget "SPExcelTests" */;
+			buildPhases = (
+				D2EDF15720E48F850060928F /* Sources */,
+				D2EDF15820E48F850060928F /* Frameworks */,
+				D2EDF15920E48F850060928F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2EDF15D20E48F850060928F /* PBXTargetDependency */,
+			);
+			name = SPExcelTests;
+			productName = SPExcelTests;
+			productReference = D2EDF15B20E48F850060928F /* SPExcelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2EDF16520E48F850060928F /* SPExcelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2EDF17520E48F850060928F /* Build configuration list for PBXNativeTarget "SPExcelUITests" */;
+			buildPhases = (
+				D2EDF16220E48F850060928F /* Sources */,
+				D2EDF16320E48F850060928F /* Frameworks */,
+				D2EDF16420E48F850060928F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2EDF16820E48F850060928F /* PBXTargetDependency */,
+			);
+			name = SPExcelUITests;
+			productName = SPExcelUITests;
+			productReference = D2EDF16620E48F850060928F /* SPExcelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2EDF13B20E48F850060928F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = GZH;
+				TargetAttributes = {
+					D2EDF14220E48F850060928F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D2EDF15A20E48F850060928F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2EDF14220E48F850060928F;
+					};
+					D2EDF16520E48F850060928F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2EDF14220E48F850060928F;
+					};
+				};
+			};
+			buildConfigurationList = D2EDF13E20E48F850060928F /* Build configuration list for PBXProject "SPExcel" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2EDF13A20E48F850060928F;
+			productRefGroup = D2EDF14420E48F850060928F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2EDF14220E48F850060928F /* SPExcel */,
+				D2EDF15A20E48F850060928F /* SPExcelTests */,
+				D2EDF16520E48F850060928F /* SPExcelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2EDF14120E48F850060928F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2EDF15320E48F850060928F /* LaunchScreen.storyboard in Resources */,
+				D2EDF15020E48F850060928F /* Assets.xcassets in Resources */,
+				D2EDF1BF20E490FD0060928F /* Info.plist in Resources */,
+				D2EDF14E20E48F850060928F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EDF15920E48F850060928F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EDF16420E48F850060928F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2EDF13F20E48F850060928F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2EDF14B20E48F850060928F /* ViewController.m in Sources */,
+				D2EDF1C520E490FD0060928F /* MASViewConstraint.m in Sources */,
+				D2EDF15620E48F850060928F /* main.m in Sources */,
+				D2EDF1C120E490FD0060928F /* MASConstraint.m in Sources */,
+				D2EDF18120E490AD0060928F /* SPBatteryStatusModel.m in Sources */,
+				D2EDF1C920E490FD0060928F /* ViewController+MASAdditions.m in Sources */,
+				D2EDF1C820E490FD0060928F /* View+MASAdditions.m in Sources */,
+				D2EDF17E20E4908C0060928F /* SPBattertStatusCollectCell.m in Sources */,
+				D2EDF1C420E490FD0060928F /* MASViewAttribute.m in Sources */,
+				D2EDF1C020E490FD0060928F /* MASCompositeConstraint.m in Sources */,
+				D2EDF1C320E490FD0060928F /* MASLayoutConstraint.m in Sources */,
+				D2EDF14820E48F850060928F /* AppDelegate.m in Sources */,
+				D2EDF1C220E490FD0060928F /* MASConstraintMaker.m in Sources */,
+				D2EDF1C620E490FD0060928F /* NSArray+MASAdditions.m in Sources */,
+				D2EDF17B20E490660060928F /* SPBatteryStatusCollectionView.m in Sources */,
+				D2EDF1C720E490FD0060928F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EDF15720E48F850060928F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2EDF16020E48F850060928F /* SPExcelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EDF16220E48F850060928F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2EDF16B20E48F850060928F /* SPExcelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2EDF15D20E48F850060928F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2EDF14220E48F850060928F /* SPExcel */;
+			targetProxy = D2EDF15C20E48F850060928F /* PBXContainerItemProxy */;
+		};
+		D2EDF16820E48F850060928F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2EDF14220E48F850060928F /* SPExcel */;
+			targetProxy = D2EDF16720E48F850060928F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2EDF14C20E48F850060928F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2EDF14D20E48F850060928F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2EDF15120E48F850060928F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2EDF15220E48F850060928F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2EDF16D20E48F850060928F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2EDF16E20E48F850060928F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2EDF17020E48F850060928F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SPExcel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GZH.SPExcel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2EDF17120E48F850060928F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SPExcel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GZH.SPExcel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2EDF17320E48F850060928F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SPExcelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GZH.SPExcelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPExcel.app/SPExcel";
+			};
+			name = Debug;
+		};
+		D2EDF17420E48F850060928F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SPExcelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GZH.SPExcelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPExcel.app/SPExcel";
+			};
+			name = Release;
+		};
+		D2EDF17620E48F850060928F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SPExcelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GZH.SPExcelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SPExcel;
+			};
+			name = Debug;
+		};
+		D2EDF17720E48F850060928F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SPExcelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GZH.SPExcelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SPExcel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2EDF13E20E48F850060928F /* Build configuration list for PBXProject "SPExcel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2EDF16D20E48F850060928F /* Debug */,
+				D2EDF16E20E48F850060928F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2EDF16F20E48F850060928F /* Build configuration list for PBXNativeTarget "SPExcel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2EDF17020E48F850060928F /* Debug */,
+				D2EDF17120E48F850060928F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2EDF17220E48F850060928F /* Build configuration list for PBXNativeTarget "SPExcelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2EDF17320E48F850060928F /* Debug */,
+				D2EDF17420E48F850060928F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2EDF17520E48F850060928F /* Build configuration list for PBXNativeTarget "SPExcelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2EDF17620E48F850060928F /* Debug */,
+				D2EDF17720E48F850060928F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2EDF13B20E48F850060928F /* Project object */;
+}
