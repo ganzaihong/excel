@@ -44,7 +44,7 @@
     _batteryStatusCollectionView.dataArrays = self.arrays;
     _batteryStatusCollectionView.scrollEnabled = YES;
     
-    
+    //
 }
 
 -(void)add_MasonryBattery{
